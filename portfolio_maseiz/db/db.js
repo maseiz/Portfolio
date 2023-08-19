@@ -56,7 +56,8 @@ export const projects = {
     {
       projectName: "Landing page Nike",
       image: "images/01-Landing-page-Nike.png",
-      summary: "Desarrollo de una Landing Page (proyecto individual).",
+      summary:
+        "Landing Page Nike.<br>Desarrollo de una Landing Page (proyecto individual).",
       preview: "https://programmingdiaries.herokuapp.com/",
       techStack: ["HTML5", "CSS3"],
     },
@@ -64,25 +65,81 @@ export const projects = {
       projectName: "Programación Imperativa vs Declarativa",
       image: "images/02-Programación- Imperativa-vs-Declarativa.png",
       summary:
-        "Desarrollo de una página web explicativa acerca de estos dos tipos de progamación (proyecto individual).",
+        "Programación Imperativa vs Declarativa.<br>Desarrollo de una página web explicativa acerca de estos dos tipos de progamación (proyecto individual).",
       preview: "https://clever-fermi-0d5d76.netlify.app",
       techStack: ["HTML5", "CSS3"],
     },
     {
-      projectName: "Web Portfolio",
-      image: "images/portfolio.png",
+      projectName: "Supermarket-Shop",
+      image: "images/03-Supermarket-shop.png",
       summary:
-        "Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.",
+        "Supermarket-Shop.<br>Desarrollo de una web de un supermercado, elección de productos, añadir o eliminar productos, carrito de la compra (proyecto individual).",
       preview: "https://github.com/vinaysomawat/Travographer-Portal",
-      techStack: ["HTML", "Bootstrap", "JavaScript"],
+      techStack: ["HTML", "CSS", "JavaScript"],
     },
     {
-      projectName: "Resume Builder",
-      image: "images/resume-builder.png",
+      projectName: "E-commerce zapatillas",
+      image: "images/04-E-commerce-zapatillas-home-JS.png",
       summary:
-        "Browser based editor to build and download Resumes in a customizable templates.",
+        "E-commerce zapatillas.<br>Desarrollo de un e-commerce de zapatillas deportivas utilizando JavaScript (proyecto en equipo).",
       preview: "https://vinaysomawat.github.io/Resume-Builder",
-      techStack: ["HTML", "Bootstrap", "JavaScript"],
+      techStack: ["HTML", "CSS", "JavaScript"],
+    },
+    {
+      projectName: "Pokémon API externa",
+      image: "images/10-Pokémon-API-1.png",
+      summary:
+        "Pokémon API externa.<br>Desarrollo de una web consumiendo datos de una API externa (proyecto individual).",
+      preview: "https://vinaysomawat.github.io/Resume-Builder",
+      techStack: ["HTML", "CSS", "JavaScript"],
+    },
+    {
+      projectName: "API Google Maps",
+      image: "images/18-Google-Maps-API.png",
+      summary:
+        "API Google Maps.<br>Desarrollo de una web consumiendo datos de la API de Google Maps (proyecto individual).",
+      preview: "https://google-maps-react-9vvzwywjo-maseiz.vercel.app/",
+      techStack: ["CSS", "JavaScript"],
+    },
+    {
+      projectName: "E-Commerce zapatillas REACT",
+      image: "images/16-E-commerce-zapatillas-cart-REACT.png",
+      summary:
+        "E-Commerce zapatillas REACT.<br>Desarrollo de un e-commerce de zapatillas deportivas con carrito de la compra, utilizando React (proyecto en equipo).",
+      preview: "https://google-maps-react-9vvzwywjo-maseiz.vercel.app/",
+      techStack: ["CSS", "React"],
+    },
+    {
+      projectName: "Ejemplo Blogs con MySQL, Nodejs y React",
+      image: "images/17-Base-de-datos-blogs-con-MySQL-Node-React.png",
+      summary:
+        "Ejemplo Blogs con MySQL, Nodejs y React.<br>Desarrollo de una web de Blogs, utilizando MySQL, Nodejs y React (proyecto individual).",
+      preview: "https://google-maps-react-9vvzwywjo-maseiz.vercel.app/",
+      techStack: ["MySQL", "React", "Nodejs"],
+    },
+    {
+      projectName: "E-commerce-zapatillas-React-MongoDB",
+      image: "images/20-E-commerce-zapatillas-React-MongoDB-Landing.png",
+      summary:
+        "E-commerce-zapatillas-React-MongoDB.<br>Desarrollo de un e-commerce de zapatillas deportivas con carrito de la compra, detalle de producto y filtros, utilizando React, Nodejs, MongoDB y consumiendo datos de una API (proyecto en equipo).",
+      preview: "https://google-maps-react-9vvzwywjo-maseiz.vercel.app/",
+      techStack: ["React", "Nodejs", "MongoDB", "Mongo Compass"],
+    },
+    {
+      projectName: "Inmerse TechHub (Hackathon)",
+      image: "images/36-Hackathon-home.png",
+      summary:
+        "Inmerse TechHub (Hackathon).<br>Desarrollo de una web de venta de cursos de programación y tecnología, utilizando HTML, CSS y React (proyecto en equipo).",
+      preview: "https://google-maps-react-9vvzwywjo-maseiz.vercel.app/",
+      techStack: ["HTML", "CSS", "React"],
+    },
+    {
+      projectName: "Scouters",
+      image: "images/30-Scouters-informe-ojeador.png",
+      summary:
+        "Scouters.<br>Proyecto final bootcamp. Desarrollo de una web de ojeadores de fútbol donde se generan informes de los jugadores y se pueden hacer comparativas (proyecto en equipo).",
+      preview: "https://google-maps-react-9vvzwywjo-maseiz.vercel.app/",
+      techStack: ["React", "Nodejs", "MongoDB (Express)", "Mongo Compass"],
     },
   ],
   softwareProjects: [
@@ -165,11 +222,9 @@ export const experience = [
     duration: "Junio/Julio 2023",
     subtitle: "Proyecto final de curso para empresa AS",
     details: [
-      "Successfully implemented Aadhaar Enabled Payment services, including Bio-metric eKYC, Cash Withdrawal, Balance Enquiry, Mini-Statements, and Money Transfer, achieving more than 20 story points in each sprint.",
-      "Streamlined the process of loading money into the wallet by integrating QR Code, which reduced the time required by 50%. Also implemented Clevertap events to track user actions, Freshdesk ticketing service, and chat-bot services. Contributed to user onboarding, approval, and finance interfaces.",
-      "Collaborated closely with cross-functional teams such as product, backend, android, and QA, ensuring timely delivery of product builds to meet deadlines",
+      "Proyecto final bootcamp. Desarrollo de una web de ojeadores de fútbol donde se generan informes de los jugadores y se pueden hacer comparativas (proyecto en equipo).",
     ],
-    tags: ["React", "Nodejs", "Mongo DB (express)", "Mongo Compass"],
+    tags: ["React", "Nodejs", "MongoDB (express)", "Mongo Compass"],
     icon: "qrcode",
   },
 ];
@@ -180,9 +235,7 @@ export const education = [
     duration: "Febrero/Agosto 2023",
     subtitle: "Bootcamp organizado por Factoría F5 Madrid",
     details: [
-      "I successfully qualified GATE-2020, demonstrating my aptitude and expertise in the field.",
-      "As an active competitive programmer, I have achieved a CodeChef rating of 1841*, showcasing my skills in solving complex programming problems.",
-      "My GitHub projects have earned over 1k stars and forks, a testament to my ability to create high-quality and impactful code.",
+      "Bootcamp de 6 meses organizado por Factoría F5 y Fundación Tomillo en Madrid, con clases online y presenciales. Principalmente basado en ejercicios prácticos, tanto de forma individual como en equipos. Algunas de las materias impartidas han sido:",
     ],
     tags: [
       "HTML5",
@@ -207,14 +260,49 @@ export const education = [
     icon: "book",
   },
   {
-    title: "Class 11-12th in Science and Mathematics",
-    duration: "",
-    subtitle: "Board of Secondary Education, Rajasthan",
+    title: "Marketing on line: Diseño y promoción de sitios web",
+    duration: "30 horas (2020)",
+    subtitle: "Academia Adams (Madrid)",
     details: [
-      "I have successfully qualified JEE Advanced, Main, and BITSAT, demonstrating my strong aptitude and skills in these highly competitive exams.",
-      "Additionally, I am proud to have achieved an exceptional 99.5 percentile in my Class 12th Boards Examinations, reflecting my dedication and hard work towards academic excellence.",
+      "Recibido diploma de aprovechamiento del curso realizado del 25-06-2020 al 21-07-2020",
     ],
-    tags: ["Physics", "Chemistry", "Mathematics"],
+    tags: [],
+    icon: "book",
+  },
+  {
+    title: "Microsoft Office",
+    duration: "60 horas (2015)",
+    subtitle: "MecaRapid (Madrid)",
+    details: [
+      "Recibido certificado de aprocechamiento del curso realizado en junio de 2015",
+    ],
+    tags: ["Word", "Excel", "Powerpoint"],
+    icon: "book",
+  },
+  {
+    title: "Windows 2003 Administrador",
+    duration: "120 horas (2007)",
+    subtitle: "IBM - Ceim (Madrid)",
+    details: [],
+    tags: [],
+    icon: "book",
+  },
+  {
+    title: "Microinformática y Reparación de ordenadores",
+    duration: "250 horas (2005)",
+    subtitle: "MSL (Madrid)",
+    details: [
+      "Recibido diploma de aprocechamiento del curso realizado en 2005",
+    ],
+    tags: ["Microinformática", "Reparación ordenadores"],
+    icon: "book",
+  },
+  {
+    title: "Informática Basic y Cobol",
+    duration: "1985-1987",
+    subtitle: "Academia Universal (Madrid)",
+    details: [],
+    tags: ["Basic", "Cobol"],
     icon: "book",
   },
 ];
